@@ -1,0 +1,24 @@
+{
+  "name": "code-with-ali-guessing_game",
+  "version": "1.0.0",
+  "description": "\"guess",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "guessing-game": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ali",
+  "license": "MIT",
+  "keywords": [],
+  "devDependencies": {
+    "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "inquirer": "^9.2.16",
+    "node-html-parser": "^6.1.13"
+  }
+}
